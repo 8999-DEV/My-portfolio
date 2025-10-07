@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#5b7cfa" />
+  <title>One-Page Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Home">
+        <span class="logo-dot" aria-hidden="true"></span>
+        <span class="brand-name">Shashikant Devkar</span>
+      </a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid reveal">
+        <div class="hero-text">
+          <div class="eyebrow"><span class="line"></span> Welcome</div>
+          <h1>Hi, I'm Shashikant Devkar</h1>
+          <h2 class="role">Web Developer • Designer • Engineer</h2>
+          <p class="lead">I create fast, accessible, and visually polished web experiences with a keen eye for detail and delightful interactions.</p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+        </div>
+       
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container reveal">
+        <div class="about-header">
+          <h2 class="about-title">About Me</h2>
+          <p class="about-sub">I'm a developer who enjoys crafting clean UIs and robust architectures. I focus on performance, accessibility, and developer experience while delivering business value. Outside of coding, I explore new technologies, contribute to open source, and write about what I learn.</p>
+        </div>
+
+        <div class="about-cards">
+          <div class="about-card card">
+            <h3>Skills</h3>
+            <div class="skills-chips">
+              <span class="chip chip-blue">Python</span>
+              <span class="chip chip-green">Django</span>
+              <span class="chip chip-teal">FastAPI</span>
+              <span class="chip chip-pink">Machine Learning</span>
+              <span class="chip chip-amber">JavaScript</span>
+              <span class="chip chip-cyan">Tailwind CSS</span>
+              <span class="chip chip-slate">Git</span>
+              <span class="chip chip-indigo">Docker</span>
+              <span class="chip chip-purple">MySQL</span>
+              <span class="chip chip-emerald">MongoDB</span>
+            </div>
+          </div>
+
+          <div class="about-card card">
+            <h3>What I Do</h3>
+            <ul class="do-list">
+              <li>
+                <svg class="do-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M3 7h18M3 12h18M3 17h18"/></svg>
+                Build robust web backends and APIs.
+              </li>
+              <li>
+                <svg class="do-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-6-6h12"/></svg>
+                Prototype features to add smart capabilities.
+              </li>
+              <li>
+                <svg class="do-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 6h16v12H4z"/></svg>
+                Create responsive, accessible UIs.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="section">
+      <div class="container reveal">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow"><span class="line"></span> Experience</div>
+            <h2>Resume</h2>
+          </div>
+          <a class="btn" download href="assets/Resume.pdf">Download Resume</a>
+        </div>
+        <div class="xp-grid">
+          <article class="card">
+            <div class="xp-top">
+              <div>
+                <div class="xp-org">B.P.H.E. Society Anmednagar college, Ahmednagar </div>
+                <div class="xp-role">Bsc (Computer Science)</div>
+              </div>
+              <div class="xp-time">2022 - 2025</div>
+            </div>
+            <p class="muted">Coursework: Data Structures, Algorithms, Databases, Web Development, Operating Systems</p>
+          </article>
+          <article class="card">
+            <div class="xp-top">
+              <div>
+                <div class="xp-org">Sanjivani University</div>
+                <div class="xp-role">MCA</div>
+              </div>
+              <div class="xp-time">2025 - 2027</div>
+            </div>
+            <p>Specialized in Software Engineering and Web Technologies. Completed advanced coursework in Data Structures, Algorithms, Database Management, and Modern Web Development frameworks.</p>
+          </article>
+          <article class="card">
+            <div class="xp-top">
+              <div>
+                <div class="xp-org">Hackathon</div>
+                <div class="xp-role">Winner, Best Web App</div>
+              </div>
+              <div class="xp-time">2023</div>
+            </div>
+            <p>Led a team to build a full-stack project in 24 hours using modern tooling.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="container reveal">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow"><span class="line"></span> Projects</div>
+            <h2>Selected Work</h2>
+          </div>
+        </div>
+        <div class="projects-grid">
+          <article class="card project">
+            <img class="project-media" src="assets/project1.svg" alt="Project screenshot" />
+            <div class="project-body">
+              <h3>DevTrack</h3>
+              <p>Lightweight task tracker with Kanban and Pomodoro.</p>
+              <div class="stack">
+                <span class="chip">React</span>
+                <span class="chip">TypeScript</span>
+                <span class="chip">Vite</span>
+              </div>
+              <div class="links">
+                <a class="link" href="#">GitHub</a>
+                <a class="link" href="#">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="card project">
+            <img class="project-media" src="assets/project2.svg" alt="Project screenshot" />
+            <div class="project-body">
+              <h3>InsightBlog</h3>
+              <p>MDX blog with search, tags, and theme sync.</p>
+              <div class="stack">
+                <span class="chip">Next.js</span>
+                <span class="chip">MDX</span>
+                <span class="chip">Tailwind</span>
+              </div>
+              <div class="links">
+                <a class="link" href="#">GitHub</a>
+                <a class="link" href="#">Live Demo</a>
+              </div>
+            </div>
+          </article>
+          <article class="card project">
+            <img class="project-media" src="assets/project3.svg" alt="Project screenshot" />
+            <div class="project-body">
+              <h3>VisionAPI</h3>
+              <p>Image analysis service with queue-based processing.</p>
+              <div class="stack">
+                <span class="chip">Node</span>
+                <span class="chip">Express</span>
+                <span class="chip">PostgreSQL</span>
+              </div>
+              <div class="links">
+                <a class="link" href="#">GitHub</a>
+                <a class="link" href="#">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container reveal">
+        <div class="section-head">
+          <div>
+            <div class="eyebrow"><span class="line"></span> Contact</div>
+            <h2>Get In Touch</h2>
+          </div>
+        </div>
+        <div class="contact-grid">
+          <form class="card" id="contactForm">
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your Name" required />
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="How can I help?" required></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+            <p class="form-status" id="formStatus"></p>
+          </form>
+
+          <div class="card contact-info">
+            <p class="lead">Prefer email or socials?</p>
+            <div class="contact-links">
+              <a class="link" href="mailto:devkarshashikant6@gmail.com">devkarshashikant6@gmail.com</a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="link" href="#" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="socials">
+        <a class="social" href="#" target="_blank" aria-label="GitHub">GitHub</a>
+        <a class="social" href="#" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+        <a class="social" href="mailto:devkarshashikant6@gmail.com" aria-label="Email">Email</a>
+      </div>
+      <p>© <span id="year"></span> Shashikant Devkar. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

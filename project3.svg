@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='600' height='190' viewBox='0 0 600 190' fill='none'>
+  <rect width='600' height='190' fill='#141a33'/>
+  <path d='M40 150 L560 40' stroke='#5b7cfa' stroke-width='6' opacity='.6'/>
+  <path d='M40 120 L560 80' stroke='#7c3aed' stroke-width='6' opacity='.5'/>
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='#e8eefc' font-family='Inter, Arial' font-size='16'>Project 3 Placeholder</text>
+</svg>

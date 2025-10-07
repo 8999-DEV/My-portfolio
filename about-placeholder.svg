@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='520' height='360' viewBox='0 0 520 360' fill='none'>
+  <rect width='520' height='360' rx='20' fill='#0f1630'/>
+  <path d='M60 240 C120 160, 220 320, 300 220 S 460 140, 480 260' stroke='#5b7cfa' stroke-width='6' opacity='.5' fill='none'/>
+  <circle cx='160' cy='140' r='40' fill='#7c3aed' opacity='.4'/>
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' fill='#e8eefc' font-family='Inter, Arial' font-size='18'>About Image Placeholder</text>
+</svg>
